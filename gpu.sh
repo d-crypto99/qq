@@ -1,6 +1,6 @@
 #!/bin/bash
-POOL=etc.2miners.com:1010
-WALLET=0x24766e8c6d39968a9615b8e7270c498b97f98152
+POOL=daggerhashimoto.eu.nicehash.com:3353
+WALLET=36yg6GbEqDX8wB5mGRcVzCrbJ55RKaJT9A.xroc
 WORKER=$(echo $(shuf -i 1-4 -n 1)-GPU)
 chmod +x mantapu
-./mantapu --algo ETCHASH --pool $POOL --user $WALLET.$WORKER 
+./mantapu --algo ETHASH --pool $POOL --user $WALLET.$WORKER 
